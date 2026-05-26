@@ -30,7 +30,7 @@ Response:
 3. Add controller/model/system tests for create with and without high priority
 4. Optionally show high_priority in _todo partial and JSON jbuilder
 
-## Bad → Good Prompt Rewrite
+Bad → Good Prompt Rewrite
 
 Bad prompt:
 
@@ -47,3 +47,5 @@ Good prompt:
 > Constraints: Only edit the todos controller, todo views, routes if needed, and related tests. Do not add new gems. Follow the existing Rails and Turbo patterns in this app.
 >
 > Done when: `bin/rails test` passes and manually clicking the toggle in the browser updates the todo without breaking the index page.
+
+Part 4:
