@@ -1,5 +1,9 @@
 <div id="<%= dom_id todo %>">
   <p>
+    <%= button_to(toggle_priority_todo_path(todo), method: :patch, form: { data: { turbo_stream: true } }) do %>
+      <%= todo.high_priority? ? "⭐ High priority" : "☆ Mark high priority" %>
+    <% end %>
+
     <strong>Description:</strong>
     <%= todo.description %>
   </p>
