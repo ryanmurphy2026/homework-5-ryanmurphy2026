@@ -49,3 +49,30 @@ Good prompt:
 > Done when: `bin/rails test` passes and manually clicking the toggle in the browser updates the todo without breaking the index page.
 
 Part 4:
+
+Turbostream definition: Turbo streams is a response that tells the browser what part of the page to change and how without having to reload the full page.
+
+One thing I verfied using the handbook is that Turbostream uses the MIME type
+
+Acceptance criteria:
+
+- Each todo has a high_priority boolean attribute.
+- The todos index shows a visible priority toggle for every todo.
+- Clicking the toggle flips the priority state.
+- The request uses Turbo Streams instead of a full page reload.
+- The response updates only the todo row or priority button.
+- At least one automated test confirms the Turbo Stream response
+
+
+## Plan
+Add reversible migration: high_priority boolean default false on todos
+Add member PATCH toggle_high_priority route under resources :todos
+Implement toggle_high_priority action with format.turbo_stream response
+Create toggle_high_priority.turbo_stream.erb to replace dom_id(@todo) row
+Consolidate index row DOM and add visible priority toggle button
+Add controller turbo_stream test + fixture updates; run full test suite
+
+
+I rejected anything that suggested a new gem since the feature can be built using turbo behavior
+
+Pull request link:
