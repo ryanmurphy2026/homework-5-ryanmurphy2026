@@ -17,10 +17,11 @@ class TodosControllerTest < ActionDispatch::IntegrationTest
 
   test "should create todo" do
     assert_difference("Todo.count") do
-      post todos_url, params: { todo: { description: @todo.description } }
+      post todos_url, params: { todo: { description: @todo.description, category: "home chores" } }
     end
 
     assert_redirected_to todo_url(Todo.last)
+    assert_equal "home chores", Todo.last.category
   end
 
   test "should show todo" do
@@ -34,8 +35,25 @@ class TodosControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update todo" do
-    patch todo_url(@todo), params: { todo: { description: @todo.description } }
+    patch todo_url(@todo), params: { todo: { description: @todo.description, category: "personal" } }
     assert_redirected_to todo_url(@todo)
+    assert_equal "personal", @todo.reload.category
+  end
+
+  test "should filter todos by category" do
+    get todos_url(category: "work")
+
+    assert_response :success
+    assert_match "Work task", response.body
+    assert_no_match "Study task", response.body
+  end
+
+  test "should show all todos when category filter is blank" do
+    get todos_url(category: "")
+
+    assert_response :success
+    assert_match "Work task", response.body
+    assert_match "Study task", response.body
   end
 
   test "should destroy todo" do

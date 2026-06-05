@@ -17,6 +17,11 @@
   </div>
 
   <div>
+    <%= form.label :category, style: "display: block" %>
+    <%= form.select :category, Todo::CATEGORIES.map { |category| [category.titleize, category] } %>
+  </div>
+
+  <div>
     <%= form.submit %>
   </div>
 <% end %>
