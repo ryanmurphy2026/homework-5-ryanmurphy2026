@@ -5,7 +5,7 @@ class TodosController < ApplicationController
   def index
     @todos = Todo.all
     @selected_category = params[:category]
-    @todos = @todos.where(category: @selected_category) if Todo::CATEGORIES.include?(@selected_category)
+    @todos = Todo.with_category(@selected_category) if Todo::CATEGORIES.include?(@selected_category)
   end
 
   # GET /todos/1 or /todos/1.json
