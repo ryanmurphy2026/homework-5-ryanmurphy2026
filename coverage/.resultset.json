@@ -1,0 +1,525 @@
+{
+  "RSpec": {
+    "coverage": {
+      "C:/Users/rjmur/OneDrive/Documents/GitHub/homework-5-ryanmurphy2026/vendor/sys-uname/lib/sys/uname.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Users/rjmur/OneDrive/Documents/GitHub/homework-5-ryanmurphy2026/app/helpers/application_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "C:/Users/rjmur/OneDrive/Documents/GitHub/homework-5-ryanmurphy2026/app/helpers/todos_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "C:/Users/rjmur/OneDrive/Documents/GitHub/homework-5-ryanmurphy2026/app/models/todo.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "C:/Users/rjmur/OneDrive/Documents/GitHub/homework-5-ryanmurphy2026/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "C:/Users/rjmur/OneDrive/Documents/GitHub/homework-5-ryanmurphy2026/app/controllers/todos_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "C:/Users/rjmur/OneDrive/Documents/GitHub/homework-5-ryanmurphy2026/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null
+        ]
+      },
+      "C:/Users/rjmur/OneDrive/Documents/GitHub/homework-5-ryanmurphy2026/app/jobs/application_job.rb": {
+        "lines": [
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ],
+        "branches": {}
+      },
+      "C:/Users/rjmur/OneDrive/Documents/GitHub/homework-5-ryanmurphy2026/app/mailers/application_mailer.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {}
+      }
+    },
+    "timestamp": 1780712728
+  },
+  "Cucumber": {
+    "coverage": {
+      "C:/Users/rjmur/OneDrive/Documents/GitHub/homework-5-ryanmurphy2026/app/models/todo.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "C:/Users/rjmur/OneDrive/Documents/GitHub/homework-5-ryanmurphy2026/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "C:/Users/rjmur/OneDrive/Documents/GitHub/homework-5-ryanmurphy2026/app/controllers/todos_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          1,
+          4,
+          4,
+          4,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "C:/Users/rjmur/OneDrive/Documents/GitHub/homework-5-ryanmurphy2026/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null
+        ]
+      },
+      "C:/Users/rjmur/OneDrive/Documents/GitHub/homework-5-ryanmurphy2026/app/helpers/application_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "C:/Users/rjmur/OneDrive/Documents/GitHub/homework-5-ryanmurphy2026/app/helpers/todos_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "C:/Users/rjmur/OneDrive/Documents/GitHub/homework-5-ryanmurphy2026/app/jobs/application_job.rb": {
+        "lines": [
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ],
+        "branches": {}
+      },
+      "C:/Users/rjmur/OneDrive/Documents/GitHub/homework-5-ryanmurphy2026/app/mailers/application_mailer.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {}
+      }
+    },
+    "timestamp": 1780712769
+  },
+  "Cucumber, RSpec": {
+    "coverage": {
+      "C:/Users/rjmur/OneDrive/Documents/GitHub/homework-5-ryanmurphy2026/vendor/sys-uname/lib/sys/uname.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Users/rjmur/OneDrive/Documents/GitHub/homework-5-ryanmurphy2026/app/helpers/application_helper.rb": {
+        "lines": [
+          2,
+          null
+        ]
+      },
+      "C:/Users/rjmur/OneDrive/Documents/GitHub/homework-5-ryanmurphy2026/app/helpers/todos_helper.rb": {
+        "lines": [
+          2,
+          null
+        ]
+      },
+      "C:/Users/rjmur/OneDrive/Documents/GitHub/homework-5-ryanmurphy2026/app/models/todo.rb": {
+        "lines": [
+          2,
+          2,
+          null,
+          2,
+          null,
+          2,
+          4,
+          null,
+          null
+        ]
+      },
+      "C:/Users/rjmur/OneDrive/Documents/GitHub/homework-5-ryanmurphy2026/app/models/application_record.rb": {
+        "lines": [
+          2,
+          2,
+          null
+        ]
+      },
+      "C:/Users/rjmur/OneDrive/Documents/GitHub/homework-5-ryanmurphy2026/app/controllers/todos_controller.rb": {
+        "lines": [
+          2,
+          2,
+          null,
+          null,
+          2,
+          5,
+          5,
+          5,
+          null,
+          null,
+          null,
+          2,
+          null,
+          null,
+          null,
+          2,
+          0,
+          null,
+          null,
+          null,
+          2,
+          null,
+          null,
+          null,
+          2,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          2,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          2,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          2,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          2,
+          null,
+          2,
+          0,
+          null,
+          null,
+          null,
+          2,
+          0,
+          null,
+          null
+        ]
+      },
+      "C:/Users/rjmur/OneDrive/Documents/GitHub/homework-5-ryanmurphy2026/app/controllers/application_controller.rb": {
+        "lines": [
+          2,
+          null,
+          2,
+          null
+        ]
+      },
+      "C:/Users/rjmur/OneDrive/Documents/GitHub/homework-5-ryanmurphy2026/app/jobs/application_job.rb": {
+        "lines": [
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ]
+      },
+      "C:/Users/rjmur/OneDrive/Documents/GitHub/homework-5-ryanmurphy2026/app/mailers/application_mailer.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "timestamp": 1780712794
+  }
+}
