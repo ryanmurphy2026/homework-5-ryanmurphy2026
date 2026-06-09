@@ -1,13 +1,12 @@
 # Homework 5 Submission
 
-## Part 1: Setup
 
 Repo: https://github.com/NU-CS-Software-Studio-Spring-26/homework-5-ryanmurphy2026 
-cursorignore: LINK_TO_CURSORIGNORE_FILE
+cursorignore: https://github.com/ryanmurphy2026/homework-5-ryanmurphy2026/blob/3cf43cb6f3a7bd049c2fb13be2e091cde20bc0a1/.cursorignore 
 
-Agents.md: 
-Rails conventions rule: LINK_TO_RAILS_CONVENTIONS
-Security rule: LINK_TO_SECURITY_RULE
+Agents.md: https://github.com/ryanmurphy2026/homework-5-ryanmurphy2026/blob/3cf43cb6f3a7bd049c2fb13be2e091cde20bc0a1/Agents.md 
+Rails conventions rule: https://github.com/ryanmurphy2026/homework-5-ryanmurphy2026/blob/3cf43cb6f3a7bd049c2fb13be2e091cde20bc0a1/rules/rails-conventions.mdc
+Security rule: https://github.com/ryanmurphy2026/homework-5-ryanmurphy2026/blob/3cf43cb6f3a7bd049c2fb13be2e091cde20bc0a1/rules/security.mdc  
 
 
 Part 3:
@@ -34,19 +33,19 @@ Bad → Good Prompt Rewrite
 
 Bad prompt:
 
-> fix the bug in todos
+fix the bug in todos
 
 Good prompt:
 
-> Context: The relevant files are `app/controllers/todos_controller.rb`, `app/views/todos/index.html.erb`, and `test/controllers/todos_controller_test.rb`.
->
-> Task: Fix the todo completion toggle so that clicking it updates the todo's completed state correctly.
->
-> Expected vs. actual: Expected: when a user clicks the completion toggle, the todo changes from incomplete to complete and the updated state appears on the index page. Actual: the request completes but the visible todo row does not update correctly.
->
-> Constraints: Only edit the todos controller, todo views, routes if needed, and related tests. Do not add new gems. Follow the existing Rails and Turbo patterns in this app.
->
-> Done when: `bin/rails test` passes and manually clicking the toggle in the browser updates the todo without breaking the index page.
+Context: The relevant files are `app/controllers/todos_controller.rb`, `app/views/todos/index.html.erb`, and `test/controllers/todos_controller_test.rb`.
+
+Task: Fix the todo completion toggle so that clicking it updates the todo's completed state correctly.
+
+Expected vs. actual: Expected: when a user clicks the completion toggle, the todo changes from incomplete to complete and the updated state appears on the index page. Actual: the request completes but the visible todo row does not update correctly.
+
+Constraints: Only edit the todos controller, todo views, routes if needed, and related tests. Do not add new gems. Follow the existing Rails and Turbo patterns in this app.
+
+Done when: `bin/rails test` passes and manually clicking the toggle in the browser updates the todo without breaking the index page.
 
 Part 4:
 
@@ -54,25 +53,4 @@ Turbostream definition: Turbo streams is a response that tells the browser what 
 
 One thing I verfied using the handbook is that Turbostream uses the MIME type
 
-Acceptance criteria:
-
-- Each todo has a high_priority boolean attribute.
-- The todos index shows a visible priority toggle for every todo.
-- Clicking the toggle flips the priority state.
-- The request uses Turbo Streams instead of a full page reload.
-- The response updates only the todo row or priority button.
-- At least one automated test confirms the Turbo Stream response
-
-
-## Plan
-Add reversible migration: high_priority boolean default false on todos
-Add member PATCH toggle_high_priority route under resources :todos
-Implement toggle_high_priority action with format.turbo_stream response
-Create toggle_high_priority.turbo_stream.erb to replace dom_id(@todo) row
-Consolidate index row DOM and add visible priority toggle button
-Add controller turbo_stream test + fixture updates; run full test suite
-
-
-I rejected anything that suggested a new gem since the feature can be built using turbo behavior
-
-Pull request link:
+Pull request link: https://github.com/NU-CS-Software-Studio-Spring-26/homework-5-ryanmurphy2026/pull/1#issue-4529030578 
